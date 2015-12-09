@@ -1,3 +1,4 @@
+// Day 4: The Ideal Stocking Stuffer
 var rl = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout
@@ -13,7 +14,7 @@ rl.question("Which part of day 4?\n", function(partNum) {
 
 var findHash = function(key, startsWith) {
     var found = false;
-    var count = -1;
+    var count = 1;
     var hash;
     while (!found) {
         count++;
